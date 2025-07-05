@@ -10,8 +10,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "FMPhotoPicker",
-            targets: ["FMPhotoPicker"])
+            name: "Project Dinner",
+            targets: ["Project Dinner"])
     ],
     targets: [
         .target(
