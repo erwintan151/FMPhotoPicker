@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Project Dinner",
+    name: "FMPhotoPicker",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v9)
