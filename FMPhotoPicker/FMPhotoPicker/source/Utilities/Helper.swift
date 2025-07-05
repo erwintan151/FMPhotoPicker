@@ -181,8 +181,8 @@ class Helper: NSObject {
     static func showDialog(in viewController: UIViewController,
                            okAction: UIAlertAction = UIAlertAction(title: "OK", style: .default, handler: nil),
                            cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil),
-                           title: String? = "FMPhotoPicker",
-                           message: String? = "FMPhotoPicker want to access Photo Library") {
+                           title: String? = "Project Dinner",
+                           message: String? = "Project Dinner want to access Photo Library") {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
         alertController.addAction(okAction)
